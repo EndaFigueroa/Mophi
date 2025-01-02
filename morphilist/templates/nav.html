@@ -1,0 +1,13 @@
+{% block day_nav %}
+<div class="navi_day">
+    <ul class="nav justify-content-center">
+        <li class="logo">Morphilist</li>
+        <li><a href="{{ url_for('routes.user') }}">User</a></li>
+        <li><a href="{{ url_for('routes.index') }}">Home</a></li>
+        <li><a href="{{ url_for('routes.night_view') }}">Night</a></li>
+        <!-- <li><a href="{{ url_for('routes.day_view') }}">Day</a></li> -->
+        <li><a href="{{ url_for('routes.reports') }}">Reports</a></li>
+        <li><a href="{{ url_for('routes.faq') }}">FAQ</a></li>
+    </ul>
+</div>
+{% endblock %}
